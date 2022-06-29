@@ -6,6 +6,7 @@ img.navbar-brand{
 }
 div.container-fluid{
     background-color: #999999;
+    flex-direction: end;
 }
 div.card{
     float: left;
@@ -13,6 +14,18 @@ div.card{
     box-shadow: 0 5px 10px rgba(239, 238, 238, 0.8);
 }
 a.btn.btn-primary{
+    float: right;
+    margin: 3px;
     background-color: #ddaaaa;
     border: none;
+}
+h4.card-title{
+    font-size: 14px;
+}
+div.navbar.navbar-expand-sm.navbar-dark.bg-dark{
+    padding: 0;
+    margin: 0;
+}
+span.badge.bg-secondary{
+    margin-left: 2%;
 }
