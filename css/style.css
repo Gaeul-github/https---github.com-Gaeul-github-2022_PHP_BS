@@ -1,6 +1,18 @@
-img.logo{
-    width: 50px;
+div.carousel-inner{
+    height: 500px;
 }
-div.container{
+img.navbar-brand{
+    width: 150px;
+}
+div.container-fluid{
     background-color: #999999;
+}
+div.card{
+    float: left;
+    margin: 3%;
+    box-shadow: 0 5px 10px rgba(239, 238, 238, 0.8);
+}
+a.btn.btn-primary{
+    background-color: #ddaaaa;
+    border: none;
 }
